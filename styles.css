@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+.temp-border {
+    border: 1px dotted black;
+}
+
 .text-shadow {
     text-shadow: 0 0 1px black;
     box-shadow: 0 0 2px black;
@@ -41,16 +45,18 @@ body {
 }
 
 #activities {
-    background-color: #A2B8AE;
-    padding-top: 15px;
+    height: 600px;
+    background-color: #E9E7E9;
+    color: #2F4858;
 }
 
-#activities-text {
+#activities-title {
+    color: #2F4858;
+    font-size: 30px;
     font-weight: 700;
     font-style: normal;
-    font-size: x-large;
-    margin-top: 0;
-    padding: 20px;
+    margin: 0 auto -12px auto;
+    padding: 20px 20px 55px 20px;
 }
 
 #activities-menu {
@@ -59,11 +65,63 @@ body {
     justify-content: center;
 }
 
+.activities-sections {
+    width: 500px;
+    margin: 0 10px 0 10px;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
 .activities-img {
     width: 200px;
     border-radius: 50%;
+    padding: 20px 0;
 }
- .activities-titles {
+ .activities-names {
     font-weight: 650;
-    font-size: 17px;
+ }
+
+.activities-description {
+    font-weight: 300;
+}
+
+ #guide {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #33658A;
+    color: whitesmoke;
+    border-bottom: 10px solid #3b82bd;
+ }
+
+ #avatar {
+    width: 200px;
+ }
+
+ #guide-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: top;
+    padding: 0 0 0 20px;
+ }
+
+ #guide-title {
+    width: 150px;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 auto;
+ }
+
+ #guide-quote {
+    font-weight: 300;
+    font-style: italic;
+ }
+
+ #guide-name {
+    font-weight: 400;
  }
